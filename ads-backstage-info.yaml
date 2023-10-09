@@ -1,0 +1,26 @@
+{
+  "apiVersion": "backstage.io/v1alpha1",
+  "kind": "Component",
+  "metadata": {
+    "description": "Aplication Lyfecycle Management. Build and run your Apps",
+    "labels": {
+      "https://doctech.dt.620nm.com/portal/ctio/": "CTIO Doc Portal"
+    },
+    "links": [
+      {
+        "url": "https://application-lifecycle.factory.orange-business.com",
+        "title": "ADS HomePage",
+        "icon": "dashboard",
+        "type": "service-homepage"
+      }
+    ],
+    "tags": ["forge","factory"],
+    "name": "Azure Devops Server [ADS]"
+  },
+  "spec": {
+    "lifecycle": "production",
+    "owner": "DTFB",
+    "type": "Facrory Tool",
+    "system": "factory.orange-business"
+  }
+}
