@@ -15,7 +15,7 @@
       }
     ],
     "tags": ["forge","factory"],
-    "name": "Azure Devops Server"
+    "name": "Azure_Devops_Server"
   },
   "spec": {
     "lifecycle": "production",
