@@ -15,12 +15,12 @@
       }
     ],
     "tags": ["forge","factory"],
-    "name": "Azure Devops Server - ADS"
+    "name": "Azure Devops Server"
   },
   "spec": {
     "lifecycle": "production",
     "owner": "DTFB",
-    "type": "Facrory Tool",
+    "type": "Factory Tool",
     "system": "factory.orange-business"
   }
 }
