@@ -9,6 +9,8 @@ metadata:
       url: https://application-lifecycle.factory.orange-business.com
     - title: Documentation
       url: https://documentation.factory.orange-business.com/azdev/user-guide/
+  annotations: 
+    backstage.io/techdocs-ref: url:https://documentation.factory.orange-business.com/azdev/user-guide/
 spec:
   type: tool
   owner: DTFB
