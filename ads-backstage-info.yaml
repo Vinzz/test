@@ -12,6 +12,6 @@ metadata:
   annotations: 
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: tool
+  type: toolS3
   owner: DTFB
   lifecycle: production
