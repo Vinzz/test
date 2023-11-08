@@ -10,7 +10,7 @@ metadata:
     - title: Documentation
       url: https://documentation.factory.orange-business.com/azdev/user-guide/
   annotations: 
-    backstage.io/techdocs-ref: url:https://github.com/backstage/backstage/blob/master/docs
+    backstage.io/techdocs-ref: dir .
 spec:
   type: tool
   owner: DTFB
