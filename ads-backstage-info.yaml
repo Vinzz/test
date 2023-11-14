@@ -4,6 +4,10 @@ metadata:
   name: ADS-Github.comS3
   description: |
     Aplication Lyfecycle Management. Build and run your Apps
+  tags:
+    - dotnet
+    - devops
+    - alm
   links:
     - title: Website
       url: https://application-lifecycle.factory.orange-business.com
