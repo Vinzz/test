@@ -15,10 +15,8 @@ metadata:
       url: https://totodoc
   annotations: 
     backstage.io/techdocs-ref: dir:.
-relations:
-  - type: dependsOn
-    targetref: component:default/ADS-Github.comS3
 spec:
   type: toolS3
   owner: DTFB
   lifecycle: production
+  subcomponentOf: component:default/ADS-Github.comS3
