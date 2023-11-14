@@ -12,6 +12,9 @@ metadata:
       url: https://toto.com
     - title: Documentation
       url: https://totodoc
+relations:
+  type: ownedBy
+  targetref: Component:default/ADS-Github.comS3
 spec:
   type: toolS3
   owner: DTFB
