@@ -4,6 +4,9 @@ metadata:
   name: Toto-Github.comS3
   description: |
     You know, Toto
+  tags:
+    - toto
+    - nondev
   links:
     - title: Website
       url: https://toto.com
