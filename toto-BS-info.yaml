@@ -13,6 +13,8 @@ metadata:
       url: https://toto.com
     - title: Documentation
       url: https://totodoc
+  annotations: 
+    backstage.io/techdocs-ref: dir:.
 relations:
   type: ownedBy
   targetref: Component:default/ADS-Github.comS3
