@@ -12,8 +12,6 @@ metadata:
       url: https://toto.com
     - title: Documentation
       url: https://totodoc
-  annotations: 
-    backstage.io/techdocs-ref: dir:.
 spec:
   type: toolS3
   owner: DTFB
