@@ -16,8 +16,7 @@ metadata:
   annotations: 
     backstage.io/techdocs-ref: dir:.
 relations:
-  type: ownedBy
-  targetref: Component:default/ADS-Github.comS3
+  - { type: dependsOn, targetref: Component:default/ADS-Github.comS3 }
 spec:
   type: toolS3
   owner: DTFB
