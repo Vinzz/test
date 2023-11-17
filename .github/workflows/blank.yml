@@ -32,7 +32,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world! ${{ (github.ref == 'refs/heads/main') && ($DAY_OF_WEEK == 'Monday') }}
+        run: echo Hello, world! ${{ (github.ref == 'refs/heads/main') && (env.DAY_OF_WEEK == 'Monday') }}
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
