@@ -15,7 +15,7 @@ on:
 env:
   DAY_OF_WEEK: Monday
   VAR1: ${{github.ref == 'refs/heads/main'}}
-  # VAR2: ${{ DAY_OF_WEEK == 'Monday'}}
+  VAR2: ${{ $env.DAY_OF_WEEK == 'Monday'}}
   # MY_ENV_VAR: ${{ env.VAR1 && env.VAR2 }}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
